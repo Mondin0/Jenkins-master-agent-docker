@@ -62,10 +62,13 @@ docker exec jenkins-master cat /var/jenkins_home/secrets/initialAdminPassword
 
 ## 🛠️ Estructura del Proyecto
 
+```bash
 jenkins-docker-compose/
-├── docker-compose.yml # Configuración de servicios
-├── jenkins_home/ # Volumen persistente de Jenkins
-└── README.md # Documentación
+│
+├── docker-compose.yml    # Configuración de servicios
+├── jenkins_home/        # Volumen persistente de Jenkins
+└── README.md           # Documentación
+```
 
 ## 📦 Servicios
 
